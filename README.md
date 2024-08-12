@@ -4,6 +4,9 @@
 
 ## Description
 
+_Vue_ és _Vuetify_ frontend framework, _Vite_ build tool, Vue SPA (Single-Page
+Application), Options API.
+
 Ez a git repository a <https://sys256.github.io> _GitHub Pages_ honlap
 forrásfájljait és az aktuális build-et tartalmazza. A build helye a _Vite_
 frontend build tool által alapértelmezetten használt `dist` könyvtár.
