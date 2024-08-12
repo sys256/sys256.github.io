@@ -14,3 +14,14 @@ frontend build tool által alapértelmezetten használt `dist` könyvtár.
 > — ellentétben a _Jekyll_-alapú GitHub Pages oldalakkal, — már a kész build
 > kerül, a feldolgozás mindössze a fájlok változtatás nélküli live webroot-ba
 > másolásából áll.
+
+## Cloning and initialization
+
+A fejlesztői gépre klónozott repository nem tartalmazza a dev futtatáshoz és a
+build létrehozásához szükséges _Node.js_ vendor csomagokat (`node_modules`
+mappát). Telepítésük:
+
+```console
+cd sys256.github.io
+npm install
+```
