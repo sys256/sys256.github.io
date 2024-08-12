@@ -25,3 +25,11 @@ mappát). Telepítésük:
 cd sys256.github.io
 npm install
 ```
+
+## Developer commands
+
+Command           | Description
+------------------|------------
+`npm run dev`     | Vite dev server futtatása
+`npm run build`   | Vite build
+`npm run preview` | A build megtekintése a fejlesztői szerverrel
