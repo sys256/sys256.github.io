@@ -13,10 +13,15 @@ frontend build tool által alapértelmezetten használt `dist` könyvtár.
 
 > **🛠️ FIGYELEM!**\
 > A _main branch_-beli `dist` alkönyvtár változásai automatikusan elindítják a
-> `.github/workflows/static.yml`-ben meghatározott műveleteket. Mivel a
+> `.github/workflows/static.yml` fájlban meghatározott műveleteket. Mivel a
 > könyvtárba — ellentétben a _Jekyll_-alapú GitHub Pages oldalakkal, — már a
 > kész build kerül, a feldolgozás mindössze a fájlok változtatás nélküli live
-> webroot-ba másolásából áll.
+> webroot-ba másolását jelenti.
+
+## Development status
+
+A fejlesztés a legelején jár. A site jelenleg egy tartalom nélküli official
+Vuetify scaffolding.
 
 ## Cloning and initialization
 
