@@ -5,10 +5,11 @@
 ## Description
 
 Ez a git repository a <https://sys256.github.io> _GitHub Pages_ honlap
-forrásfájljait és aktuális build-jét (`dist` alkönyvtár) tartalmazza.
+forrásfájljait és az azokból készített aktuális build-et tartalmazza. A build
+helye a _Vite_ által szokásosan használt `dist` könyvtár.
 
 > **🛠️ FIGYELEM!**\
-> A `dist` könyvtár változásai a _main branch_-ben automatikusan elindítják a
+> A _main branch_-beli `dist` alkönyvtár változásai automatikusan elindítják a
 > `.github/workflows/static.yml`-ben meghatározott műveleteket. Mivel a
 > könyvtárba már a kész build kerül, a feldolgozás csak a fájlok változtatás
 > nélküli live webroot-ba másolását jelenti.
