@@ -1,6 +1,9 @@
 # GitHub recommended settings for Node
 # NOTE: dist enabled
 
+# sys256
+creatives
+
 # Logs
 logs
 *.log
