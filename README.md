@@ -51,8 +51,8 @@ szükséges frissítéseket.
 
 ## Developer commands
 
-Command           | Description
-------------------|------------
-`npm run dev`     | Vite dev server futtatása
-`npm run build`   | Vite build
-`npm run preview` | A build megtekintése a fejlesztői szerverrel
+Command           | Description                                  | Comments
+------------------|----------------------------------------------|---------
+`npm run dev`     | Vite dev server futtatása                    | &nbsp;
+`npm run build`   | Vite build                                   | Inkrementálja az NPM version patch értékét
+`npm run preview` | A build megtekintése a fejlesztői szerverrel | &nbsp;
