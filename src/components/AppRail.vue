@@ -10,7 +10,8 @@ megválasztani, hogy a scrollbar ne jelenjen meg.
         <template #prepend>
             <v-list density="compact" nav>
                 <v-list-item v-for="( [icon, to, title], idx ) of upperItems" :prepend-icon="icon" :to="to"
-                    :title="title" :key="idx" :class="{ 'mb-0': idx === upperItems.length - 1 }" />
+                    :title="title" :key="idx"
+                    :class="{ 'mb-0': idx === upperItems.length - 1, 'v-list-item--active': to !== '/' && $route.path.startsWith(to) }" />
             </v-list>
         </template>
 
@@ -34,9 +35,9 @@ megválasztani, hogy a scrollbar ne jelenjen meg.
         created() {
             this.upperItems = [
                 ['mdi-file-document-multiple-outline', '/', "My Files"],
-                ['mdi-magnify', '/top1', "Title 2"],
-                ['mdi-source-branch', '/top2', "Title 3"],
-                ['mdi-bug-play-outline', '/top3', "Title 4"]
+                ['mdi-magnify', '/subpage-1', "Title 2"],
+                ['mdi-source-branch', '/b', "Title 3"],
+                ['mdi-bug-play-outline', '/subpage-3', "Title 4"]
             ];
 
             this.lowerItems = [

@@ -5,8 +5,10 @@
             <v-icon :icon="item.icon" :size="item.icon === '$vuetify' ? 24 : 16" />
         </a>
 
+        {{ $route.path }}
+
         <div class="text-caption text-disabled" style="position: absolute; right: 16px;">
-            &copy; 2016-{{ (new Date()).getFullYear() }} <span class="d-none d-sm-inline-block">Vuetify, LLC</span>
+            &copy; 2016–{{ (new Date()).getFullYear() }} <span class="d-none d-sm-inline-block">Vuetify, LLC</span>
             —
             <a class="text-decoration-none on-surface" href="https://vuetifyjs.com/about/licensing/"
                 rel="noopener noreferrer" target="_blank">

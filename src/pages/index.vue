@@ -1,7 +1,6 @@
 <template>
-    <HelloWorld />
-</template>
+    <div class="page">
+        <hello-world />
+    </div>
 
-<script setup>
-//
-</script>
+</template>
